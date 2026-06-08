@@ -5413,7 +5413,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 144.78) (xy 214.63 144.78)
+			(xy 213.36 144.78) (xy 213.36 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6821,6 +6821,16 @@
 		)
 		(uuid "43a4ab5e-04b2-4545-aebc-21752f4eae10")
 	)
+	(label "SWCLK"
+		(at 177.8 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b3947df-b380-4d60-a169-6f9486fcfe44")
+	)
 	(label "UART0_TX"
 		(at 180.34 63.5 0)
 		(effects
@@ -6890,6 +6900,16 @@
 			(justify left bottom)
 		)
 		(uuid "9af7e174-81ba-454d-81a1-0d8fc2d6d357")
+	)
+	(label "SWDIO"
+		(at 177.8 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0afaa6b-e72a-4602-b976-4059ea95b140")
 	)
 	(label "ROSC"
 		(at 184.15 68.58 0)
@@ -10772,7 +10792,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 144.78 0)
+		(at 213.36 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10783,7 +10803,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e8a53d6-9c15-4218-ad78-9df3971bd7a3")
 		(property "Reference" "#PWR01"
-			(at 214.63 151.13 0)
+			(at 213.36 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10794,7 +10814,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 149.86 0)
+			(at 213.36 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10805,7 +10825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 144.78 0)
+			(at 213.36 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10816,7 +10836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 144.78 0)
+			(at 213.36 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 144.78 0)
+			(at 213.36 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12859,7 +12879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 148.2852 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14135,7 +14155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 166.0652 95.25 0)
 			(hide yes)
 			(show_name no)
