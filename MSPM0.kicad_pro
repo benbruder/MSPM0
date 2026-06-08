@@ -284,6 +284,10 @@
         ""
       ],
       [
+        "pin_to_pin|596900|1435100|90fd0ff2-b880-460c-9c3b-b28844e34bef|161a6460-0e8d-4a9c-8e4d-cf443dd250e9|/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb|/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb|/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb",
+        ""
+      ],
+      [
         "power_pin_not_driven|1104900|266700|14a9938a-53a3-464a-8c82-274083a82b40|00000000-0000-0000-0000-000000000000|/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb|/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb|",
         ""
       ]
@@ -543,7 +547,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(29, 0, 0)",
         "priority": 5,
         "schematic_color": "rgb(29, 0, 0)",
         "tuning_profile": "",
@@ -553,7 +557,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "HFX/CLK",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(204, 102, 0)",
         "priority": 1,
         "schematic_color": "rgb(204, 102, 0)",
         "tuning_profile": "",
@@ -563,7 +567,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 167, 0)",
         "priority": 2,
         "schematic_color": "rgb(255, 167, 0)",
         "tuning_profile": "",
@@ -573,7 +577,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(216, 0, 0)",
         "priority": 6,
         "schematic_color": "rgb(216, 0, 0)",
         "tuning_profile": "",
@@ -583,7 +587,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SWD/RST",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 194, 0)",
         "priority": 3,
         "schematic_color": "rgb(194, 194, 0)",
         "tuning_profile": "",
@@ -593,7 +597,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "UART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "priority": 4,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": "",
@@ -603,7 +607,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 213, 0)",
         "priority": 7,
         "schematic_color": "rgb(0, 213, 0)",
         "tuning_profile": "",
@@ -613,7 +617,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "VREF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(149, 0, 0)",
         "priority": 0,
         "schematic_color": "rgb(149, 0, 0)",
         "tuning_profile": "",
@@ -648,11 +652,11 @@
       },
       {
         "netclass": "I2C",
-        "pattern": "/I2C*"
+        "pattern": "*I2C*"
       },
       {
         "netclass": "I2C",
-        "pattern": "/INT*"
+        "pattern": "INT*"
       },
       {
         "netclass": "HFX/CLK",

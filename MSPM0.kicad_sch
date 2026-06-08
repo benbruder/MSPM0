@@ -4752,7 +4752,7 @@
 	)
 	(text "SWD Header"
 		(exclude_from_sim no)
-		(at 116.078 134.366 0)
+		(at 114.808 134.366 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4773,6 +4773,16 @@
 			)
 		)
 		(uuid "25b9a714-afff-4ba1-93da-6409c3408c57")
+	)
+	(text "To/From MCU"
+		(exclude_from_sim no)
+		(at 92.456 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c7a7023-1ab0-4e19-acf9-a471c2d1737c")
 	)
 	(text "USB-UART Converter"
 		(exclude_from_sim no)
@@ -4799,7 +4809,7 @@
 	)
 	(text "Accelerometer"
 		(exclude_from_sim no)
-		(at 266.954 45.974 0)
+		(at 42.926 120.904 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4808,6 +4818,16 @@
 			)
 		)
 		(uuid "65a6bac1-3263-407a-bb93-a47d638b55ac")
+	)
+	(text "To MCU"
+		(exclude_from_sim no)
+		(at 72.898 155.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de92223d-0433-4bc9-8649-6da9a9b132c3")
 	)
 	(text "+3V3 LDO Regulator"
 		(exclude_from_sim no)
@@ -4822,13 +4842,19 @@
 		(uuid "e5bcceb9-1cb7-4415-b92e-701b984b4d96")
 	)
 	(junction
+		(at 60.96 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "002baf7f-5c3f-41f4-ae22-6f6444735f9d")
+	)
+	(junction
 		(at 116.84 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ef7659a-8231-4ae3-9f30-e8d9b3e8eae5")
 	)
 	(junction
-		(at 267.97 55.88)
+		(at 41.91 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "154076fb-0c1a-42b4-a9e5-bc9a6c4540e7")
@@ -4844,12 +4870,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ab9ab11-dfa2-4218-8c9c-a10f23a20627")
-	)
-	(junction
-		(at 49.53 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "208dc2f0-26ae-4ce1-8ae4-a258d5ecb08d")
 	)
 	(junction
 		(at 140.97 26.67)
@@ -4870,12 +4890,6 @@
 		(uuid "33edafc8-9eac-4c3d-a097-8ae549493bb6")
 	)
 	(junction
-		(at 248.92 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37dcecbf-47d6-44eb-b207-1d7786746002")
-	)
-	(junction
 		(at 200.66 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4894,16 +4908,10 @@
 		(uuid "524fb097-db08-404d-8f29-2b17a610443a")
 	)
 	(junction
-		(at 274.32 55.88)
+		(at 35.56 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55fa3cd7-eeaa-406d-af86-b10b4f7bb1c3")
-	)
-	(junction
-		(at 238.76 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fc42617-790e-49a6-b090-15674b08ef0e")
 	)
 	(junction
 		(at 85.09 26.67)
@@ -4936,12 +4944,6 @@
 		(uuid "933c08bb-4dcd-4979-ac07-8851913db201")
 	)
 	(junction
-		(at 49.53 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9585a311-ff67-4476-a141-d209a6c37e69")
-	)
-	(junction
 		(at 31.75 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4952,6 +4954,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae379cf0-76a0-4c26-8e74-6877ec8f465b")
+	)
+	(junction
+		(at 71.12 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b14b4b5f-bbaa-432a-98b6-c227ed467980")
 	)
 	(junction
 		(at 90.17 64.77)
@@ -5008,10 +5016,22 @@
 		(uuid "ddc3ebcd-2a10-4a81-b372-a5ab80ebc5bb")
 	)
 	(junction
-		(at 248.92 52.07)
+		(at 60.96 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de203639-4a0f-4e0c-9b1a-c379eae105f0")
+	)
+	(junction
+		(at 49.53 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de64c5bb-ecaa-4c1c-b4ed-0e6280b6bd7e")
+	)
+	(junction
+		(at 49.53 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6e28b52-cd8d-4fda-807d-2f13f556da98")
 	)
 	(junction
 		(at 90.17 57.15)
@@ -5028,16 +5048,16 @@
 		(uuid "083b2e67-a6cf-4e3f-9313-081d2a7041dd")
 	)
 	(no_connect
-		(at 236.22 76.2)
-		(uuid "168f4504-1afd-4d4e-93dd-7e646acef76f")
-	)
-	(no_connect
 		(at 190.5 124.46)
 		(uuid "1969d312-37d1-4453-b454-654618d1aa99")
 	)
 	(no_connect
 		(at 190.5 99.06)
 		(uuid "22623c84-07a1-4169-b0b3-b5201c309afa")
+	)
+	(no_connect
+		(at 236.22 66.04)
+		(uuid "237ccd1e-536b-4375-bd14-6a8f4b22d97f")
 	)
 	(no_connect
 		(at 190.5 73.66)
@@ -5054,10 +5074,6 @@
 	(no_connect
 		(at 190.5 134.62)
 		(uuid "43484c7e-5c82-4f88-9a3a-359e3bb89565")
-	)
-	(no_connect
-		(at 190.5 88.9)
-		(uuid "4abe2752-8749-445f-9ea1-d141cdc118ae")
 	)
 	(no_connect
 		(at 236.22 71.12)
@@ -5108,16 +5124,16 @@
 		(uuid "9ae4cd38-c246-4dad-8342-f7aa1cf6af0a")
 	)
 	(no_connect
-		(at 190.5 91.44)
-		(uuid "9c0f1ce1-b9bf-400d-a5d9-526ce456d5c5")
-	)
-	(no_connect
 		(at 190.5 109.22)
 		(uuid "9caf699f-cd08-426e-b075-9253cd3f1d6b")
 	)
 	(no_connect
 		(at 190.5 96.52)
 		(uuid "9ccd1c78-19a4-494e-b28e-83156ba69b7a")
+	)
+	(no_connect
+		(at 236.22 63.5)
+		(uuid "9f3fbe04-b017-4972-8590-7299c0f764c9")
 	)
 	(no_connect
 		(at 190.5 101.6)
@@ -5128,12 +5144,16 @@
 		(uuid "b1f687bb-6c21-4489-baee-f92d42b760b2")
 	)
 	(no_connect
-		(at 236.22 91.44)
-		(uuid "ceea6d9b-ee91-4c8e-9a23-612d91927107")
+		(at 236.22 81.28)
+		(uuid "c5c91a95-c416-45e6-abfe-c09d1fa1f29b")
 	)
 	(no_connect
-		(at 236.22 73.66)
-		(uuid "ddd49945-c61a-49a8-8196-7b3c73e8e1aa")
+		(at 236.22 78.74)
+		(uuid "ccc305d4-145f-4839-87be-1aab0f1aecb7")
+	)
+	(no_connect
+		(at 236.22 91.44)
+		(uuid "ceea6d9b-ee91-4c8e-9a23-612d91927107")
 	)
 	(no_connect
 		(at 236.22 86.36)
@@ -5223,7 +5243,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 55.88) (xy 267.97 55.88)
+			(xy 35.56 130.81) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5253,33 +5273,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 54.61) (xy 83.82 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ed74fed-23fc-47bf-a0c3-4a4a598139f7")
-	)
-	(wire
-		(pts
-			(xy 274.32 59.69) (xy 274.32 55.88)
+			(xy 35.56 134.62) (xy 35.56 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f5fa902-e39f-4df0-8f26-51470bfd8c63")
-	)
-	(wire
-		(pts
-			(xy 236.22 81.28) (xy 250.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1007bb6c-09ce-4618-bd28-a4e27a3c5f31")
 	)
 	(wire
 		(pts
@@ -5293,7 +5293,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 52.07) (xy 238.76 53.34)
+			(xy 81.28 73.66) (xy 81.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115b99aa-6a01-41ff-acea-5f8ebbc4710d")
+	)
+	(wire
+		(pts
+			(xy 71.12 127) (xy 71.12 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5323,7 +5333,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 83.82) (xy 190.5 83.82)
+			(xy 83.82 52.07) (xy 76.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155c913d-68d4-4a06-afe9-e34842b3f39e")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5333,7 +5353,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 55.88) (xy 267.97 55.88)
+			(xy 45.72 130.81) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5373,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 68.58) (xy 250.19 68.58)
+			(xy 62.23 143.51) (xy 59.69 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 83.82) (xy 260.35 86.36)
+			(xy 49.53 158.75) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5420,6 +5440,16 @@
 			(type default)
 		)
 		(uuid "22848c58-7f4c-4836-b190-16b47267800c")
+	)
+	(wire
+		(pts
+			(xy 59.69 52.07) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e38ab5-d786-4428-870c-51ef79b255a8")
 	)
 	(wire
 		(pts
@@ -5443,23 +5473,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 71.12) (xy 250.19 71.12)
+			(xy 62.23 146.05) (xy 59.69 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a02439b-a46c-469a-81cc-706d26d82f68")
-	)
-	(wire
-		(pts
-			(xy 49.53 52.07) (xy 66.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c0f8031-5e0d-4d90-859c-cf9afea4a54e")
 	)
 	(wire
 		(pts
@@ -5483,6 +5503,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 54.61) (xy 63.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309929ee-a69e-4d93-99a8-5a37bfe88bcf")
+	)
+	(wire
+		(pts
 			(xy 176.53 116.84) (xy 176.53 119.38)
 		)
 		(stroke
@@ -5493,7 +5523,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 176.53 106.68)
+			(xy 133.35 106.68) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5543,13 +5573,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 86.36) (xy 190.5 86.36)
+			(xy 72.39 140.97) (xy 60.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be86465-e977-467d-8d76-95da77175263")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d5f0b84-e706-4c99-8f4b-5f8a4861b593")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 59.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbfd52b-afc9-4a6d-af94-d994f758980f")
 	)
 	(wire
 		(pts
@@ -5563,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 60.96) (xy 248.92 66.04)
+			(xy 60.96 135.89) (xy 60.96 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5683,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 58.42) (xy 264.16 55.88)
+			(xy 45.72 133.35) (xy 45.72 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5743,17 +5793,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 66.04 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f1b5b1-13bf-4c85-a433-7e127fba740a")
-	)
-	(wire
-		(pts
-			(xy 274.32 53.34) (xy 274.32 55.88)
+			(xy 35.56 128.27) (xy 35.56 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5873,6 +5913,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 138.43) (xy 59.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66741be4-7b73-4683-b761-e5df7f6bd967")
+	)
+	(wire
+		(pts
 			(xy 129.54 63.5) (xy 190.5 63.5)
 		)
 		(stroke
@@ -5913,7 +5963,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 66.04) (xy 250.19 66.04)
+			(xy 59.69 54.61) (xy 49.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f50cd81-4c75-4e92-89e3-daf9b46f460f")
+	)
+	(wire
+		(pts
+			(xy 60.96 140.97) (xy 59.69 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5963,7 +6023,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 52.07) (xy 248.92 53.34)
+			(xy 63.5 49.53) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7386f7db-536a-4b3a-915d-8c35e13cdd24")
+	)
+	(wire
+		(pts
+			(xy 60.96 127) (xy 60.96 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6020,6 +6090,16 @@
 			(type default)
 		)
 		(uuid "79ba1dba-04c8-4864-84d7-0ea81b008d8e")
+	)
+	(wire
+		(pts
+			(xy 236.22 73.66) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a429d24-65e6-48bf-85cd-5560cdef1216")
 	)
 	(wire
 		(pts
@@ -6093,17 +6173,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 52.07) (xy 81.28 73.66)
+			(xy 81.28 54.61) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8aedca2f-af11-4407-9ed9-517393c6e13b")
+		(uuid "860405b2-e7ec-4bbb-9b70-c634a524e4c4")
 	)
 	(wire
 		(pts
-			(xy 267.97 55.88) (xy 267.97 58.42)
+			(xy 41.91 130.81) (xy 41.91 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6193,7 +6273,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 60.96) (xy 238.76 63.5)
+			(xy 71.12 135.89) (xy 71.12 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6210,6 +6290,16 @@
 			(type default)
 		)
 		(uuid "9c0bd029-f4ec-40ee-8b1a-0481b89cc184")
+	)
+	(wire
+		(pts
+			(xy 60.96 153.67) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f52e370-c0d3-4712-97c0-fb87b505db9d")
 	)
 	(wire
 		(pts
@@ -6240,6 +6330,16 @@
 			(type default)
 		)
 		(uuid "a1d553bb-f011-46a9-84a7-da0d73ecea22")
+	)
+	(wire
+		(pts
+			(xy 189.23 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4802eb6-6dcb-44f2-aed5-262cc419b972")
 	)
 	(wire
 		(pts
@@ -6283,7 +6383,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 104.14) (xy 173.99 104.14)
+			(xy 135.89 104.14) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6313,16 +6413,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 250.19 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b53089ad-d1d5-4f09-a86c-7c44a2200b13")
-	)
-	(wire
-		(pts
 			(xy 104.14 36.83) (xy 104.14 38.1)
 		)
 		(stroke
@@ -6330,6 +6420,36 @@
 			(type default)
 		)
 		(uuid "b557b5b5-d5c4-4370-9cd1-23e9f4cdad7e")
+	)
+	(wire
+		(pts
+			(xy 72.39 138.43) (xy 71.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93874e3-5beb-41ab-9cf2-e2448970048e")
+	)
+	(wire
+		(pts
+			(xy 63.5 54.61) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccb35f8-8698-4f86-8a88-a0d4a456d088")
+	)
+	(wire
+		(pts
+			(xy 236.22 76.2) (xy 243.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00bdef9-804f-4f19-a1dd-c35015c71820")
 	)
 	(wire
 		(pts
@@ -6343,16 +6463,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 52.07) (xy 81.28 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17b69f9-2966-4fb0-94f1-6e21a67fe1de")
-	)
-	(wire
-		(pts
 			(xy 129.54 66.04) (xy 190.5 66.04)
 		)
 		(stroke
@@ -6360,26 +6470,6 @@
 			(type default)
 		)
 		(uuid "c1bd9a22-cf68-4959-82aa-0170b3611081")
-	)
-	(wire
-		(pts
-			(xy 83.82 54.61) (xy 83.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c26ac255-847b-4e7a-b6e3-8d9872f6c101")
-	)
-	(wire
-		(pts
-			(xy 236.22 66.04) (xy 248.92 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f9361e-43ba-4ea7-814b-f24fff33da6f")
 	)
 	(wire
 		(pts
@@ -6403,7 +6493,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 176.53 86.36)
+			(xy 187.96 91.44) (xy 190.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d754cf-dfab-458c-8f43-dfce16a50fa8")
+	)
+	(wire
+		(pts
+			(xy 175.26 106.68) (xy 175.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6420,16 +6520,6 @@
 			(type default)
 		)
 		(uuid "c885fd0e-a299-44ae-afc4-3ff3cb96e579")
-	)
-	(wire
-		(pts
-			(xy 236.22 63.5) (xy 238.76 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7b1048-2513-4c75-b93c-b58747a9e477")
 	)
 	(wire
 		(pts
@@ -6450,16 +6540,6 @@
 			(type default)
 		)
 		(uuid "ccefec68-67f7-4c07-96b2-38ba3ccbdd36")
-	)
-	(wire
-		(pts
-			(xy 238.76 63.5) (xy 250.19 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc8dc6e-22f3-422b-9e71-79616231d3a5")
 	)
 	(wire
 		(pts
@@ -6503,6 +6583,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 156.21) (xy 59.69 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6662440-144a-4eba-b6a3-bb9a44b38694")
+	)
+	(wire
+		(pts
 			(xy 135.89 71.12) (xy 135.89 104.14)
 		)
 		(stroke
@@ -6513,13 +6603,23 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 67.31) (xy 274.32 68.58)
+			(xy 35.56 142.24) (xy 35.56 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da07e5b0-2887-4830-8f6b-b411bdcd4005")
+	)
+	(wire
+		(pts
+			(xy 83.82 71.12) (xy 83.82 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df528eca-2490-48e3-8f98-bfedb7b66818")
 	)
 	(wire
 		(pts
@@ -6583,7 +6683,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 52.07) (xy 248.92 52.07)
+			(xy 71.12 127) (xy 60.96 127)
 		)
 		(stroke
 			(width 0)
@@ -6743,7 +6843,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 104.14) (xy 173.99 83.82)
+			(xy 172.72 104.14) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6781,16 +6881,6 @@
 		)
 		(uuid "24c3cfa6-d8c6-4bdd-b554-874a0555057d")
 	)
-	(label "INT1"
-		(at 237.49 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f325903-fec8-4dd3-969a-1eb0fb5fa080")
-	)
 	(label "HFXIN"
 		(at 184.15 76.2 0)
 		(effects
@@ -6810,16 +6900,6 @@
 			(justify left bottom)
 		)
 		(uuid "3cb5a478-60d3-4c0c-aadb-cf717d11fe48")
-	)
-	(label "I2C1_SDA"
-		(at 238.76 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43a4ab5e-04b2-4545-aebc-21752f4eae10")
 	)
 	(label "SWCLK"
 		(at 177.8 114.3 0)
@@ -6841,16 +6921,6 @@
 		)
 		(uuid "5d415da0-ae58-4a49-8de8-e2eb6f1a0650")
 	)
-	(label "I2C1_SCL"
-		(at 238.76 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dc213d1-3c92-4774-84ba-96aba788859d")
-	)
 	(label "UART0_RX"
 		(at 180.34 66.04 0)
 		(effects
@@ -6862,7 +6932,7 @@
 		(uuid "61fefeec-3b2b-4ce7-812f-c1451fc6a249")
 	)
 	(label "UART0_CTS"
-		(at 179.07 86.36 0)
+		(at 177.8 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6892,7 +6962,7 @@
 		(uuid "98c31656-4c6c-48c7-8b0d-fd79ae175e98")
 	)
 	(label "UART0_RTS"
-		(at 179.07 83.82 0)
+		(at 177.8 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6931,16 +7001,6 @@
 		)
 		(uuid "dd46dad9-f8b7-4697-9b07-1cca92a0abb3")
 	)
-	(label "INT2"
-		(at 237.49 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6d6db04-4b77-4efa-b7fa-18baa7617334")
-	)
 	(label "USBC_D+"
 		(at 49.53 54.61 0)
 		(effects
@@ -6970,6 +7030,198 @@
 			(justify left bottom)
 		)
 		(uuid "ffe0c3bd-06db-4749-8557-a3494c61ee98")
+	)
+	(global_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 72.39 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a5bc32a-0e56-4558-8be0-16b19d9630ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.316 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "INT2"
+		(shape input)
+		(at 243.84 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "612e54f3-74d5-4c15-937a-069fdc8260fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.9376 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C0_SDA"
+		(shape bidirectional)
+		(at 189.23 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "614d9075-9540-4a77-aa38-9e135215debe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.304 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INT1"
+		(shape output)
+		(at 60.96 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64f52f0d-2620-4b66-b619-3d7236d4cbc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.0576 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C0_SCL"
+		(shape output)
+		(at 187.96 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78dac0d5-2806-4aff-bc63-95bd26101638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.2058 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INT1"
+		(shape input)
+		(at 243.84 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b068d040-66a1-4e5d-b22e-9cf0256b28ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.9376 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "I2C0_SCL"
+		(shape input)
+		(at 72.39 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc3fecd3-5893-4a03-8b8f-421673f11239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.1442 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "INT2"
+		(shape output)
+		(at 60.96 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef8bebaf-1611-4f39-8e34-6c447bd12ee9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.0576 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MSPM0_Schm:MSPM0G3507SPTR")
@@ -7083,6 +7335,17 @@
 		)
 		(property "LCSC" "C22362630"
 			(at 240.03 144.018 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 193.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,6 +7652,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 97.79 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "MSPM0"
 				(path "/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb"
@@ -7400,7 +7674,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 248.92 52.07 0)
+		(at 60.96 127 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7410,7 +7685,7 @@
 		(dnp no)
 		(uuid "05155b8a-ecc9-4d8f-ac28-af14eceebf80")
 		(property "Reference" "#PWR032"
-			(at 248.92 55.88 0)
+			(at 60.96 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,7 +7696,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 247.904 48.26 0)
+			(at 61.976 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7431,7 +7706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 52.07 0)
+			(at 60.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +7717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 52.07 0)
+			(at 60.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +7728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 248.92 52.07 0)
+			(at 60.96 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7589,7 +7864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.1352 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7600,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 90.17 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7611,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 90.17 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7667,6 +7942,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 90.17 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7962,6 +8248,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 20.32 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d755f8b5-a5a2-47d9-9614-9b7ab830a48e")
 		)
@@ -8134,7 +8431,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 68.58 270)
+		(at 62.23 143.51 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8145,7 +8443,7 @@
 		(fields_autoplaced yes)
 		(uuid "1218408b-bc5f-4d8e-b039-01c12b5aacc5")
 		(property "Reference" "#PWR033"
-			(at 241.3 68.58 0)
+			(at 68.58 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8454,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 68.58 0)
+			(at 67.31 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 68.58 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,7 +8476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 68.58 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8189,7 +8487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 68.58 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.592 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -8502,7 +8800,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 166.37 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8587,6 +8896,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 71.12 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 71.12 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8691,6 +9011,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 43.18 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4dffb71-cf5b-4b3e-b50d-a4af89f38c0c")
 		)
@@ -8737,7 +9068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 65.532 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -8759,7 +9090,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 67.31 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8850,6 +9192,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 118.11 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f7812083-2edb-4ff3-b1d8-19ce13114e16")
 		)
@@ -8907,7 +9260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.5052 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8918,7 +9271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8929,7 +9282,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8985,6 +9338,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 129.54 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9044,7 +9408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.2952 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -9055,7 +9419,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9066,7 +9430,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9122,6 +9486,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 227.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 227.33 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9149,7 +9524,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 274.32 63.5 0)
+		(at 35.56 138.43 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9160,7 +9536,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c25e2d0-94c7-4820-8dfd-6536fdd20c0c")
 		(property "Reference" "C14"
-			(at 278.13 62.2299 0)
+			(at 31.75 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9171,7 +9547,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 278.13 64.7699 0)
+			(at 31.75 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9181,8 +9557,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 275.2852 67.31 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 34.5948 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,8 +9568,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
-			(at 274.32 63.5 0)
+		(property "Datasheet" ""
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9203,8 +9579,8 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
-			(at 274.32 63.5 0)
+		(property "Description" ""
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9215,7 +9591,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 274.32 63.5 0)
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9226,7 +9602,7 @@
 			)
 		)
 		(property "Manufacturer Part No." "CL10B474KA8NNNC"
-			(at 274.32 63.5 0)
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,7 +9613,7 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B474KA8NNNC/3887741"
-			(at 274.32 63.5 0)
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9248,7 +9624,7 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B474KA8NNNC?qs=X6jEic%2FHinB5K8vFqKDbLw%3D%3D"
-			(at 274.32 63.5 0)
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +9635,18 @@
 			)
 		)
 		(property "LCSC" "C1623"
-			(at 274.32 63.5 0)
+			(at 35.56 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 35.56 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 56.642 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -9340,7 +9727,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 58.42 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9645,6 +10043,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 104.14 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "68ac3c28-6617-4895-bbe3-1f2c798a023a")
 		)
@@ -9717,6 +10126,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 53.34 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 53.34 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9940,6 +10360,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 200.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "39f059c3-3830-4b8c-a589-16de2910323f")
 		)
@@ -10055,6 +10486,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 119.38 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f57af37f-6fa6-4326-8651-d7dfb2771ba6")
 		)
@@ -10125,7 +10567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 70.358 90)
 			(hide yes)
 			(show_name no)
@@ -10136,7 +10578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RS73.pdf"
+		(property "Datasheet" ""
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10147,7 +10589,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10171,6 +10613,17 @@
 		)
 		(property "Manufacturer Part No." "RS73F1JTTD1003B"
 			(at 177.8 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10575,28 +11028,6 @@
 				)
 			)
 		)
-		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
-			(at 156.21 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
-			(at 156.21 101.6 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Manufacturer" ""
 			(at 156.21 86.36 0)
 			(hide yes)
@@ -10609,6 +11040,17 @@
 			)
 		)
 		(property "Manufacturer Part No." "ECS-80-8-33Q-JES-TR"
+			(at 156.21 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "crystal_resonator_oscillator"
 			(at 156.21 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10642,7 +11084,8 @@
 	)
 	(symbol
 		(lib_id "Sensor_Motion:LIS2DH")
-		(at 260.35 71.12 0)
+		(at 49.53 146.05 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10652,7 +11095,7 @@
 		(dnp no)
 		(uuid "7e5c47b1-86c5-4ebc-904c-ac8cd93e1da5")
 		(property "Reference" "U4"
-			(at 267.97 85.598 0)
+			(at 41.91 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10663,7 +11106,7 @@
 			)
 		)
 		(property "Value" "LIS2DH"
-			(at 263.906 83.82 0)
+			(at 45.974 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10674,7 +11117,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-14_2x2mm_P0.35mm_LayoutBorder3x4y"
-			(at 260.35 82.55 0)
+			(at 49.53 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10685,7 +11128,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/DM00042751.pdf"
-			(at 260.35 86.36 0)
+			(at 49.53 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10696,7 +11139,7 @@
 			)
 		)
 		(property "Description" "3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface, LGA-14"
-			(at 260.35 71.12 0)
+			(at 49.53 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10707,7 +11150,7 @@
 			)
 		)
 		(property "Manufacturer" "ST"
-			(at 260.35 71.12 0)
+			(at 49.53 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10718,7 +11161,7 @@
 			)
 		)
 		(property "Manufacturer Part No." "LIS2DHTR"
-			(at 260.35 71.12 0)
+			(at 49.53 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10729,7 +11172,18 @@
 			)
 		)
 		(property "LCSC" "C155670"
-			(at 260.35 71.12 0)
+			(at 49.53 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 49.53 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,7 +11357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 248.6152 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10914,7 +11368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 247.65 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10925,7 +11379,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 247.65 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -10981,6 +11435,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 247.65 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 247.65 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -11320,7 +11785,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 247.65 71.12 90)
+		(at 62.23 146.05 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11330,7 +11796,7 @@
 		(dnp no)
 		(uuid "8ce3bebc-18f5-4d33-b83d-e8b612180a7e")
 		(property "Reference" "#PWR034"
-			(at 251.46 71.12 0)
+			(at 58.42 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11341,7 +11807,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 245.364 73.152 90)
+			(at 64.516 148.082 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11351,7 +11817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 71.12 0)
+			(at 62.23 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11362,7 +11828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 71.12 0)
+			(at 62.23 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11373,7 +11839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 247.65 71.12 0)
+			(at 62.23 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11429,7 +11895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.4952 127 0)
 			(hide yes)
 			(show_name no)
@@ -11440,7 +11906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 176.53 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11451,7 +11917,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 176.53 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11507,6 +11973,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 176.53 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 176.53 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11613,7 +12090,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 274.32 68.58 0)
+		(at 35.56 143.51 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11624,7 +12102,7 @@
 		(fields_autoplaced yes)
 		(uuid "96e4f98d-63e2-4eed-a7d5-4c977b2f3b4e")
 		(property "Reference" "#PWR030"
-			(at 274.32 74.93 0)
+			(at 35.56 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11635,7 +12113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 274.32 73.66 0)
+			(at 35.56 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11646,7 +12124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 68.58 0)
+			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11657,7 +12135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 68.58 0)
+			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11668,7 +12146,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 68.58 0)
+			(at 35.56 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11801,7 +12279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 28.448 90)
 			(hide yes)
 			(show_name no)
@@ -11823,7 +12301,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 77.47 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 77.47 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12119,7 +12608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.5452 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12130,7 +12619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12141,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12197,6 +12686,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 68.58 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 68.58 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12414,7 +12914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.0552 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12425,7 +12925,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 85.09 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12436,7 +12936,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 85.09 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -12502,6 +13002,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 85.09 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa3c0273-00ba-49bd-baee-84fbf3af814e")
 		)
@@ -12519,7 +13030,8 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 274.32 53.34 0)
+		(at 35.56 128.27 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12529,7 +13041,7 @@
 		(dnp no)
 		(uuid "af2f6606-df1a-4174-a584-7e77d70012f0")
 		(property "Reference" "#PWR029"
-			(at 274.32 57.15 0)
+			(at 35.56 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12540,7 +13052,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 273.304 49.53 0)
+			(at 36.576 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12550,7 +13062,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 53.34 0)
+			(at 35.56 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12561,7 +13073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 53.34 0)
+			(at 35.56 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12572,7 +13084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 274.32 53.34 0)
+			(at 35.56 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12596,7 +13108,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 248.92 57.15 0)
+		(at 60.96 132.08 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12606,7 +13119,7 @@
 		(dnp no)
 		(uuid "afc826ca-bae7-4c70-a853-3ccb65962b18")
 		(property "Reference" "R8"
-			(at 250.19 56.134 0)
+			(at 59.69 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12617,7 +13130,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 250.19 58.42 0)
+			(at 59.69 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12627,8 +13140,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 247.142 57.15 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 62.738 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12639,7 +13152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 57.15 0)
+			(at 60.96 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12649,8 +13162,19 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 248.92 57.15 0)
+		(property "Description" ""
+			(at 60.96 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 60.96 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12879,7 +13403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.2852 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12890,7 +13414,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do"
+		(property "Datasheet" ""
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12901,7 +13425,7 @@
 				)
 			)
 		)
-		(property "Description" "15 pF, 50 V, ± 5% 0603 MLCC"
+		(property "Description" ""
 			(at 147.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12967,6 +13491,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 147.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "67933ec9-ddf8-4a74-89d4-cfa462cd0faa")
 		)
@@ -13016,7 +13551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.5652 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13027,7 +13562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL10B474KA8NNN.do"
+		(property "Datasheet" ""
 			(at 101.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13038,7 +13573,7 @@
 				)
 			)
 		)
-		(property "Description" "470nF ±10% 25V Ceramic Capacitor X7R 0603"
+		(property "Description" ""
 			(at 101.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13094,6 +13629,17 @@
 			)
 		)
 		(property "LCSC" "C1623"
+			(at 101.6 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 101.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13200,7 +13746,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 86.36 0)
+		(at 49.53 161.29 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13211,7 +13758,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc5b4038-8c05-4d00-b90a-ee933c739df0")
 		(property "Reference" "#PWR031"
-			(at 260.35 92.71 0)
+			(at 49.53 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13222,7 +13769,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 91.44 0)
+			(at 49.53 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13233,7 +13780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 86.36 0)
+			(at 49.53 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13244,7 +13791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 86.36 0)
+			(at 49.53 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13255,7 +13802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 86.36 0)
+			(at 49.53 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13502,6 +14049,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "fiducial"
+			(at 82.55 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "MSPM0"
 				(path "/bcc0c4ad-2e10-4f36-9edb-3e96a098d4fb"
@@ -13568,6 +14126,17 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 67.31 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "fiducial"
 			(at 67.31 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13709,6 +14278,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 140.97 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "59b2ae12-8111-4516-a50a-b1b6809dd9b0")
 		)
@@ -13758,7 +14338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.872 97.79 90)
 			(hide yes)
 			(show_name no)
@@ -13780,7 +14360,18 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 247.65 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -13863,6 +14454,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 31.75 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 31.75 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14043,7 +14645,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 57.15 0)
+		(at 71.12 132.08 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14053,7 +14656,7 @@
 		(dnp no)
 		(uuid "f9d0f9f5-cfec-4d36-9d0b-d95360a8e232")
 		(property "Reference" "R7"
-			(at 240.03 56.134 0)
+			(at 69.85 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14064,7 +14667,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 240.03 58.42 0)
+			(at 69.85 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14074,8 +14677,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 236.982 57.15 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 72.898 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14086,7 +14689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 57.15 0)
+			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14096,8 +14699,19 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 238.76 57.15 0)
+		(property "Description" ""
+			(at 71.12 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 71.12 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14155,7 +14769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.0652 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14166,7 +14780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.samsungsem.com/mlcc/CL21A106KAYNNN.do"
+		(property "Datasheet" ""
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14177,7 +14791,7 @@
 				)
 			)
 		)
-		(property "Description" "15 pF, 50 V, ± 5% 0603 MLCC"
+		(property "Description" ""
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -14233,6 +14847,17 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 165.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 165.1 91.44 0)
 			(hide yes)
 			(show_name no)
